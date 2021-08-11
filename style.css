@@ -437,6 +437,12 @@ h1.clients {
     }
 }
 
+@media (min-width: 1920px) {
+    .testimonials {
+        padding: 0 140px;
+        margin-top: 50px;
+    }
+}
 /* GET IN TOUCH */
 
 #CTA {
