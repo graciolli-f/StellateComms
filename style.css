@@ -1,16 +1,27 @@
+/*
+Theme Name: Stellate
+Theme URI: https://stellatecomms.com
+Author: Fernanda Graciolli
+Author URI: https://stellatecomms.com
+Description: A Stellate Comms website theme
+*/
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }   */
+
 body, html {
     font-family: 'Raleway', sans-serif;
-    height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    overflow-x:hidden;
+    width: 100vw;
 }
 
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 /* PARTICLES */
@@ -39,9 +50,18 @@ body {
     padding: 25.24px 0 29.1px 79.36px;
 }
 
+.affix {
+    padding: 5px 0 5px 79.36px;
+}
+
+.affix-logo {
+    width: 50px;
+}
+
 #nav {
     margin: 0;
     padding: 0;
+    /* width: auto; */
 }
 
 .navbar-brand {
@@ -78,6 +98,7 @@ body {
     #hero-text {
         text-align: center;
         margin: 0 auto;
+        margin-top: 160px;
         padding: 50px 50px;
         width: 100%;
     }
@@ -90,7 +111,7 @@ body {
 @media (min-width: 577px) {
 #hero-text {
     margin-left: 85px;
-    margin-top: 97px;
+    margin-top: 260px;
     padding: 0;
     }
 }
@@ -196,9 +217,8 @@ a:hover {
 
 #who-row,
 #who-row-2 {
-    margin: 0;
+    margin: 0 10px 0 0;
     padding: 0;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -469,11 +489,12 @@ p.CTA-text,
 
 #footer {
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
 .footer {
     padding: 37px 86px;
+    margin: 0 10px;
 }
 
 #footer-menu {
@@ -526,6 +547,7 @@ p.legal {
 @media (max-width: 574px) {
     .footer {
         padding: 37px 30px;
+        margin: 0 10px;
     }
     ul {
         padding-left: 0;
