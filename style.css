@@ -86,9 +86,12 @@ body {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 576px) {
     .navbar {
-        padding: 25.24px;
+        padding: 10px 25.24px;
+    }
+    #logo {
+        width: 150px;
     }
 }
 
@@ -98,7 +101,7 @@ body {
     #hero-text {
         text-align: center;
         margin: 0 auto;
-        margin-top: 160px;
+        margin-top: 120px;
         padding: 50px 50px;
         width: 100%;
     }
