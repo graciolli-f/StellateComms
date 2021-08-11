@@ -93,6 +93,9 @@ body {
     #logo {
         width: 150px;
     }
+    #logo.affix-logo {
+        width: 50px;
+    }
 }
 
 /* HERO */
