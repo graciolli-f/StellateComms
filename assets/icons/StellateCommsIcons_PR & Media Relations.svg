@@ -1,0 +1,51 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9663a9;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #370c43;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.98px;
+      }
+
+      .cls-2 {
+        fill: #e3ae2c;
+      }
+
+      .cls-3 {
+        fill: #c18ed4;
+      }
+
+      .cls-4 {
+        fill: #f7f8f9;
+      }
+
+      .cls-5 {
+        fill: #604169;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="26.96" y="44.46" width="6.11" height="4.04"/>
+    <polygon class="cls-2" points="21.4 59.63 28.93 59.63 28.93 37.37 18.09 37.37 21.4 59.63"/>
+    <rect class="cls-2" x="14.94" y="34.06" width="18.12" height="6.85"/>
+    <rect class="cls-3" x="2.84" y="22" width="14.26" height="9.26"/>
+    <path class="cls-4" d="M17.32,15.9H36.61a0,0,0,0,1,0,0V37.37a0,0,0,0,1,0,0H17.32A10.74,10.74,0,0,1,6.59,26.63v0A10.74,10.74,0,0,1,17.32,15.9Z"/>
+    <polygon class="cls-3" points="60.45 47.29 35.43 37.37 35.43 15.9 60.45 5.97 60.45 47.29"/>
+    <rect class="cls-1" x="59.45" y="5.37" width="3.94" height="42.53"/>
+    <line class="cls-2" x1="28.93" y1="51.55" x2="26.17" y2="51.55"/>
+    <line class="cls-2" x1="28.93" y1="55.49" x2="26.17" y2="55.49"/>
+    <rect class="cls-5" x="13.53" y="20.84" width="16.94" height="3.46"/>
+    <line class="cls-2" x1="39.56" y1="26.63" x2="56.9" y2="26.63"/>
+    <line class="cls-3" x1="1.61" y1="26.63" x2="2.84" y2="26.63"/>
+    <g>
+      <line class="cls-2" x1="21.21" y1="28.29" x2="22.79" y2="28.29"/>
+      <line class="cls-2" x1="15.79" y1="28.29" x2="17.36" y2="28.29"/>
+      <line class="cls-2" x1="26.64" y1="28.29" x2="28.21" y2="28.29"/>
+    </g>
+  </g>
+</svg>

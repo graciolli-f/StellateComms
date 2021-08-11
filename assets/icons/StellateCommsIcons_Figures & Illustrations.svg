@@ -1,0 +1,62 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7f8f9;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #370c43;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.98px;
+      }
+
+      .cls-2 {
+        fill: #9663a9;
+      }
+
+      .cls-3 {
+        fill: #c18ed4;
+      }
+
+      .cls-4 {
+        fill: #604169;
+      }
+
+      .cls-5 {
+        fill: #e3ae2c;
+      }
+
+      .cls-6 {
+        fill: #370c43;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="cls-1" points="2.14 53.09 59.84 53.09 59.84 13.97 9.09 13.97 2.14 20.93 2.14 53.09"/>
+      <polygon class="cls-2" points="2.14 20.93 9.09 20.93 9.09 13.97 2.14 20.93"/>
+      <g>
+        <path class="cls-2" d="M31,26.36A10.23,10.23,0,1,0,31,40.7a10.19,10.19,0,0,1,0-14.34Z"/>
+        <path class="cls-3" d="M38.27,23.31A10.15,10.15,0,0,0,31,26.36,10.21,10.21,0,0,1,31,40.7a10.22,10.22,0,1,0,7.28-17.39Z"/>
+        <ellipse class="cls-4" cx="30.99" cy="33.53" rx="2.94" ry="7.17"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-5" points="62.86 27.12 62.86 56.92 33.06 56.92 62.86 27.12"/>
+      <polygon class="cls-1" points="56.28 41.54 56.28 50.76 47.05 50.76 56.28 41.54"/>
+      <line class="cls-3" x1="62.86" y1="38" x2="59.84" y2="38"/>
+      <line class="cls-3" x1="62.86" y1="42.36" x2="59.84" y2="42.36"/>
+      <line class="cls-3" x1="62.86" y1="46.72" x2="59.84" y2="46.72"/>
+      <line class="cls-3" x1="62.86" y1="51.08" x2="59.84" y2="51.08"/>
+    </g>
+    <g>
+      <path class="cls-3" d="M49.37,3.19h4.25a1.55,1.55,0,0,1,1.55,1.55V8.23a0,0,0,0,1,0,0H47.82a0,0,0,0,1,0,0V4.74A1.55,1.55,0,0,1,49.37,3.19Z" transform="translate(19.12 -34.74) rotate(45)"/>
+      <rect class="cls-4" x="44.5" y="6.85" width="7.35" height="4.35" transform="translate(20.49 -31.42) rotate(45)"/>
+      <polygon class="cls-1" points="23.94 33.26 25.31 26.7 30.51 31.89 23.94 33.26"/>
+      <polygon class="cls-6" points="24.66 29.8 23.94 33.26 27.41 32.54 24.66 29.8"/>
+      <rect class="cls-5" x="33.6" y="6.68" width="7.35" height="26.49" transform="translate(25.01 -20.52) rotate(45)"/>
+    </g>
+  </g>
+</svg>
