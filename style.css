@@ -376,6 +376,9 @@ h1.clients {
         margin-right: 30px;
         margin-top: 20px;
     }
+    #bebio {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 992px) {
