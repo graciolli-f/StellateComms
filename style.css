@@ -144,7 +144,7 @@ h2.hero {
 
 p.hero {
     font-size: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     margin-top: 33px;
 }
@@ -291,7 +291,7 @@ img.who {
 
 p.who {
     font-size: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     margin-top: 33px;
 }
