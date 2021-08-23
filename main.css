@@ -369,6 +369,7 @@ h2.do {
     margin: 58px 85px;
     background-image: url(assets/Rays.svg);
     background-position: right top;
+    right: 0px;
     background-repeat: no-repeat;
 }
 
