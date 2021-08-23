@@ -365,10 +365,14 @@ h1.clients {
     margin-bottom: 0;
 }
 
-@media (min-width: 840px) {
-#logo-table-xs {
-    display: none;
+.quote:not(:first-child) {
+    margin-top: 50px;
 }
+
+@media (min-width: 840px) {
+    #logo-table-xs {
+        display: none;
+    }
 }
 
 @media only screen 
@@ -395,7 +399,7 @@ h1.clients {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     #logo-table {
         display: flex;
         flex-direction: column;
@@ -421,6 +425,12 @@ h1.clients {
     h1.clients {
         text-align: center;
     }
+    .quote:first-child {
+        margin-top: 45px;
+    }
+    .quote:not(:first-child) {
+        margin-top: 30px !important;
+    }
 }
 
 @media (max-width: 840px) {
@@ -438,7 +448,7 @@ h1.clients {
 .testimonials {
     margin-top: 30px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 0 50px;
     display: flex;
