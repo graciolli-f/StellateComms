@@ -548,11 +548,13 @@ p.CTA-text,
 .footer {
     padding: 37px 86px;
     margin: 0 10px;
+    display: flex;
+    align-items: center;
 }
 
 #footer-menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .footer-link{
@@ -584,6 +586,7 @@ p.CTA-text,
 p.legal {
     font-size: 12px;
     color: #604169;
+    margin: 0;
 }
 
 #legal {
