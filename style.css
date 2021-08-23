@@ -385,6 +385,9 @@ h1.clients {
     #bebio {
         margin-top: 0;
     }
+    #sick {
+        margin-top: 38px;
+    }
 }
 
 @media (max-width: 992px) {
