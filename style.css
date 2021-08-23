@@ -557,6 +557,10 @@ p.CTA-text,
     justify-content: flex-start;
 }
 
+#menu {
+    justify-content: center;
+}
+
 .footer-link{
     float: left;
     font-size: 12px;
@@ -607,5 +611,37 @@ p.legal {
     }
     ul {
         padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #legal,
+    #footer-menu,
+    #footer-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-menu {
+        margin-top: 40px;
+    }
+    #menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #menu ul {
+        padding-left: 0;
+    }
+    #footer-social {
+        flex-direction: row;
+    }
+    #footer-social p {
+        display: none;
+    }
+    .footer {
+        text-align: center;
+    }
+    #in {
+        margin-right: 0 !important;
     }
 }
