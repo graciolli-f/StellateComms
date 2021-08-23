@@ -371,10 +371,12 @@ h1.clients {
 }
 }
 
-@media (min-width: 993px) {
+@media only screen 
+  and (min-device-width: 993px) {
     #logo-table {
         display: flex;
         flex-direction: row;
+        text-align: center;
     }
     img.logo {
         width: 255px;
@@ -387,6 +389,9 @@ h1.clients {
     }
     #sick {
         margin-top: 38px;
+    }
+    h1.clients {
+        text-align: center;
     }
 }
 
@@ -450,6 +455,12 @@ h1.clients {
     }
     .testimonials p {
         padding: 30px 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1.clients {
+        text-align: left;
     }
 }
 
