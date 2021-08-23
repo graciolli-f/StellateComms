@@ -365,7 +365,7 @@ h1.clients {
     margin-bottom: 0;
 }
 
-@media (min-width: 577px) {
+@media (min-width: 840px) {
 #logo-table-xs {
     display: none;
 }
@@ -418,7 +418,7 @@ h1.clients {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 840px) {
     #clients {
         margin: 58px 30px;
         display: flex;
