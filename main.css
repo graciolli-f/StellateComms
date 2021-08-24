@@ -540,6 +540,10 @@ h1.clients {
     .testimonials {
         padding: 0 10px !important;
     }
+    h2.do {
+        white-space: pre-wrap;
+        text-align: center;
+    }
 }
 
 /* GET IN TOUCH */
