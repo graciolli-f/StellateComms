@@ -428,7 +428,7 @@ h1.clients {
         margin-top: 15px;
     }
     #sick {
-        margin-top: 30px;
+        margin-top: 48px;
         width: 220px;
     }
     #onemind {
@@ -535,6 +535,7 @@ h1.clients {
 @media (max-width: 576px) {
     img.logo {
         margin-right: 0;
+        padding: 0 20px;
     }
     .testimonials {
         padding: 0 10px !important;
