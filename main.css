@@ -325,13 +325,16 @@ p.who {
     .row#do {
         margin: 85px 30px;
     }
+    h2.do {
+        padding: 0 15px;
+    }
 }
 
 h1.do {
     font-size: 54px;
     color: #9663A9;
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
