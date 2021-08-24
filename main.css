@@ -409,9 +409,19 @@ h1.clients {
     }
     #bebio {
         margin-top: 0;
+        width: 200px;
+    }
+    #salk {
+        width: 200px;
+        margin-top: 15px;
     }
     #sick {
         margin-top: 38px;
+        width: 220px;
+    }
+    #onemind {
+        width: 200px;
+        margin-top: 30px;
     }
     h1.clients {
         text-align: center;
