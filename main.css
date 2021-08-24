@@ -331,6 +331,7 @@ h1.do {
     font-size: 54px;
     color: #9663A9;
     font-weight: 400;
+    margin-bottom: 60px;
 }
 
 @media (max-width: 767px) {
