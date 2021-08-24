@@ -379,7 +379,7 @@ h2.do {
     margin: 58px 0px 58px 85px;
     padding-right: 85px;
     background-repeat: no-repeat;
-    background-image: url(assets/Rays.svg) linear-gradient(#370C43, #C18ED4, #E3AE2C);
+    background-image: url(assets/Rays.svg);
     background-position: right top;
     background-repeat: no-repeat;
     right: 0px;
