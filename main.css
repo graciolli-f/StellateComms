@@ -528,6 +528,16 @@ h1.clients {
         margin-top: 50px;
     }
 }
+
+@media (max-width: 576px) {
+    img.logo {
+        margin-right: 0;
+    }
+    .testimonials {
+        padding: 0 10px !important;
+    }
+}
+
 /* GET IN TOUCH */
 
 #CTA {
