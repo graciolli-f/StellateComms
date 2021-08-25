@@ -433,7 +433,7 @@ h1.clients {
     }
     #bebio {
         margin-top: 20px;
-        width: 200px;
+        width: 220px;
     }
     #salk {
         width: 200px;
@@ -445,7 +445,7 @@ h1.clients {
     }
     #onemind {
         width: 210px;
-        margin-top: 41px;
+        margin-top: 20px;
     }
     h1.clients {
         text-align: center;
@@ -460,7 +460,8 @@ h1.clients {
 
     #logos-1,
     #logos-2,
-    #logos-3 {
+    #logos-3,
+    #logos-4 {
         display: flex;
         justify-content: center;
     }
