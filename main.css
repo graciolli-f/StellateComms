@@ -431,6 +431,9 @@ h1.clients {
         margin-right: 30px;
         margin-top: 20px;
     }
+    #inscopix {
+        margin-top: 35px;
+    }
     #bebio {
         margin-top: 20px;
         width: 220px;
@@ -440,7 +443,7 @@ h1.clients {
         margin-top: 35px;
     }
     #sick {
-        margin-top: 48px;
+        margin-top: 25px;
         width: 220px;
     }
     #onemind {
