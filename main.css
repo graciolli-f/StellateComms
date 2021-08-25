@@ -400,6 +400,18 @@ h1.clients {
     margin-top: 50px;
 }
 
+.testimonials {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* font-weight: bold; */
+}
+
 @media (min-width: 840px) {
     #logo-table-xs {
         display: none;
@@ -489,19 +501,6 @@ h1.clients {
     }
 }
 
-
-.testimonials {
-    margin-top: 30px;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 0 80px 0 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* font-weight: bold; */
-}
-
 @media (max-width: 992px) and (min-width: 768px) {
     .testimonials {
         display: flex;
@@ -543,6 +542,12 @@ h1.clients {
     h2.do {
         white-space: pre-wrap;
         text-align: center;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .testimonials {
+        padding: 0 10px 0 80px;
     }
 }
 
