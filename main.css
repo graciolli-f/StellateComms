@@ -450,6 +450,9 @@ h1.clients {
         width: 210px;
         margin-top: 20px;
     }
+    #utah {
+        margin-top: 50px;
+    }
     h1.clients {
         text-align: center;
     }
