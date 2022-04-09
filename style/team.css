@@ -1,0 +1,117 @@
+p, h4 {
+    margin:0;
+}
+
+main {
+    margin: 250px 80px;
+}
+
+/* Meet our Team */
+.team-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 2.5em;
+    color: #360B42;
+}
+.team-title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    margin-top: .5em;
+}
+/* Team member cards base*/
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    gap: 60px 30px;
+}
+.member-card-wrapper {
+    width: 100%;
+    border: 1px solid #EC9F7C; 
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: .75em;
+}
+.member-card-wrapper .card-text  {
+    color: #360B42;
+}
+.member-card-wrapper .card-text h4 {
+    font-size: 1.2em;
+}
+.member-card-wrapper .card-text p {
+    font-size: .95em;
+}
+.member-card-wrapper .card-socials {
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    gap: .3em;
+}
+.member-card-wrapper .card-socials i {
+    color: #A776C0;
+    text-decoration: none;
+}
+.member-card-wrapper .card-socials i:first-child {
+    /* margin-bottom: .3em; */
+}
+.member-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    background: linear-gradient(#A776C0, #EC9F7C);
+    justify-content: center; 
+    padding: 3em 0 3em 0;
+    position: relative;
+
+}
+.member-headshot img {
+    width: 250px;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid white; 
+    transition: .3s;
+    justify-self: center;
+    align-items: center;
+}
+.bio-arrow {
+    position: absolute;
+    display: flex;
+    right: .75em;
+    bottom: .75em;
+    flex-direction: row;
+}
+.bio-arrow p {
+    margin-right: .5em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.bio-arrow img {
+    width: 30%;
+}
+
+/* Team member cards hover */
+.member-headshot:hover img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
