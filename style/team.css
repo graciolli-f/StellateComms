@@ -27,11 +27,20 @@ main {
 /* Team member cards base*/
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
     grid-gap: 20px;
     justify-items: center;
     align-items: center;
     gap: 60px 30px;
+}
+.team-grid-bio-open {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    gap: 60px;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 .member-card-wrapper {
     width: 100%;
@@ -39,6 +48,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
 }
 .member-card-inner {
     display: flex;
