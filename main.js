@@ -19,7 +19,7 @@ $(document).ready(function(){
             'transition'        : '0.6s ease-in-out',
             'transition-delay'  : '70ms'
         });
-        
+    
 
         // card.animate({width: '100%'}, "slow");
 
@@ -28,5 +28,16 @@ $(document).ready(function(){
     //   $('.team-grid').removeClass('team-grid');
       console.log('clicked');
     });
-  });
+    $('.bio-arrow').hover(
+        function(){
+            $(this).find('img').addClass('hover');
+            $(this).find('p').addClass('hover');
+        },
+        function(){
+            $(this).find('img').removeClass('hover');
+            $(this).find('p').removeClass('hover');
+        }   
+    )
+    });
+
    

@@ -45,6 +45,7 @@ main {
 .member-card-wrapper {
     width: 100%;
     border: 1px solid #EC9F7C;
+    border-radius: 20px 20px 0 0 ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,6 +64,7 @@ main {
     padding: 3em 0 3em 0;
     position: relative;
     margin: -1px;
+    border-radius: 20px 20px 0 0 ;
 }
 .card-info {
     display: flex;
@@ -91,17 +93,14 @@ main {
     color: #A776C0;
     text-decoration: none;
 }
-.member-card-wrapper .card-socials i:first-child {
-    /* margin-bottom: .3em; */
-}
 .member-headshot img {
-    width: 250px;
+    width: 300px;
     height: auto;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid white; 
+    border: 3px solid #f9f9f9; 
     transition: .3s;
     justify-self: center;
     align-items: center;
@@ -112,15 +111,27 @@ main {
     right: .75em;
     bottom: .75em;
     flex-direction: row;
+    background: white;
+    padding: .2em .7em;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .bio-arrow p {
     margin-right: .5em;
     text-transform: uppercase;
-    color: white;
-    font-weight: 700;
+    color: #A776C0;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+.bio-arrow p.hover {
+    letter-spacing: 1px;
 }
 .bio-arrow img {
     width: 30%;
+    transition: .4s ease-in-out;
+}
+.bio-arrow img.hover {
+    /* margin-left: 1px; */
 }
 
 /* Team member cards hover */
