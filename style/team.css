@@ -5,7 +5,11 @@ p, h4 {
 main {
     margin: 250px 80px;
 }
-
+/* #team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
 /* Meet our Team */
 .team-title {
     font-size: 2.5em;
@@ -27,7 +31,7 @@ main {
 /* Team member cards base*/
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
     justify-items: center;
     align-items: center;
@@ -41,6 +45,7 @@ main {
     gap: 60px;
     grid-column-start: 1;
     grid-column-end: 1;
+    width: 70vw;
 }
 .member-card-wrapper {
     width: 100%;
@@ -49,8 +54,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
 }
+/* .member-card-wrapper.open {
+    width: 60vw;
+} */
 .member-card-inner {
     display: flex;
     flex-direction: column;
@@ -66,6 +73,9 @@ main {
     margin: -1px;
     border-radius: 20px 20px 0 0 ;
 }
+/* .member-card-inner.open {
+    width: 25%;
+} */
 .card-info {
     display: flex;
     justify-content: space-between;
@@ -94,16 +104,17 @@ main {
     text-decoration: none;
 }
 .member-headshot img {
-    width: 300px;
+    width: auto;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
+    max-width: 80%;
+    max-height: auto;
+    margin: auto;
     border-radius: 50%;
     border: 3px solid #f9f9f9; 
     transition: .3s;
     justify-self: center;
     align-items: center;
+    display: block;
 }
 .bio-arrow {
     position: absolute;
