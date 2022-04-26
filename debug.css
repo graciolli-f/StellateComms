@@ -11,13 +11,15 @@ Description: A Stellate Comms website theme
     outline: solid #f00 1px !important;
   }   */
 
-body, html {
+
+  body, html {
     font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     width: 100vw;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -374,6 +376,22 @@ h2.do {
 }
 
 /* WHO WE'VE WORKED WITH */
+
+/* GRID */
+#logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem 2rem;
+}
+#logo-grid > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-grid img {
+    max-width: 200px;
+    height: auto;
+}
 #clients {
     margin: 58px 0px 58px 85px;
     padding-right: 85px;
@@ -395,105 +413,60 @@ h1.clients {
     margin-bottom: 0;
 }
 
-.quote:not(:first-child) {
+/* .quote:not(:first-child) {
     margin-top: 50px;
-}
+} */
 
 .testimonials {
+    display: flex;
+    flex-direction: row;
     margin-top: 30px;
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 0 80px 0 80px;
+    /* padding: 0 80px 0 80px; */
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    /* font-weight: bold; */
+    gap: 10rem;
+    padding: 0 10rem;
+    /* flex: 0 0 90vw; */
 }
-
-@media (min-width: 840px) {
+.quote {
+    /* flex: 1 0 auto; */
+    flex: 1 1 0;
+    min-width: 0;
+    font-size: 1.5rem;
+}
+ 
+/* @media (min-width: 840px) {
     #logo-table-xs {
         display: none;
     }
+} */
+@media screen and (min-width: 1200px) {
+    #logo-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
-
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    #logo-grid {
+        grid-template-columns: repeat(auto-fill, minmax( 200px, 1fr));
+    }
+}
 @media only screen 
-  and (min-device-width: 993px) {
-    #logo-table {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    img.logo {
-        width: 255px;
-        height: auto;
-        margin-right: 30px;
-        margin-top: 20px;
-    }
-    #inscopix {
-        margin-top: 35px;
-    }
-    #bebio {
-        margin-top: 20px;
-        width: 220px;
-    }
-    #salk {
-        width: 200px;
-        margin-top: 35px;
-    }
-    #sick {
-        margin-top: 25px;
-        width: 220px;
-    }
-    #onemind {
-        width: 210px;
-        margin-top: 20px;
-    }
-    #utah {
-        margin-top: 50px;
-    }
+  and (min-device-width: 300px) and (max-width:1200px) {
     h1.clients {
         text-align: center;
-    }
-}
-
-@media (max-width: 1200px) {
-    #logo-table {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #logos-1,
-    #logos-2,
-    #logos-3,
-    #logos-4 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .logo {
-        align-self: center;
-    }
-
-    img.logo {
-        width: 175px;
-        height: auto;
-        margin-right: 30px;
-        margin-top: 20px;
-    }
-    h1.clients {
-        text-align: center;
-    }
-    .quote:first-child {
-        margin-top: 45px;
-    }
-    .quote:not(:first-child) {
-        margin-top: 30px !important;
     }
     .testimonials {
-        padding: 0 80px !important;
+        gap: 5rem;
     }
-}
+    .quote {
+        min-width: 100%;
+        /* padding: 5rem; */
+    }
+} 
 
 @media (max-width: 840px) {
     #clients {
@@ -502,37 +475,34 @@ h1.clients {
         display: flex;
         justify-content: center;
     }
-    #logo-table {
-        display: none;
-    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
-    .testimonials {
+    /* .testimonials {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-    .testimonials p {
+    } */
+    /* .testimonials p {
         padding: 0px 15px;
     }
     .testimonials {
         padding: 0 80px;
-    }
+    } */
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     h1.clients {
-        text-align: left;
+        text-align: center;
     }
     .testimonials {
-        padding: 0 80px 0 80px;
+        flex-direction: column;
     }
 }
 
 @media (min-width: 1920px) {
     .testimonials {
-        padding: 0 140px;
+        /* padding: 0 140px; */
         margin-top: 50px;
     }
 }
@@ -543,7 +513,8 @@ h1.clients {
         padding: 0 20px;
     }
     .testimonials {
-        padding: 0 10px !important;
+        padding: 0 3rem !important;
+        gap: 5rem;
     }
     h2.do {
         white-space: pre-wrap;
@@ -551,9 +522,9 @@ h1.clients {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1999px) and (max-width: 1400px) {
     .testimonials {
-        padding: 0 10px 0 80px;
+        gap: 4rem;
     }
 }
 
