@@ -75,12 +75,13 @@ main#team {
     justify-content: flex-start;
 }
 .member-card-wrapper.open {
-    grid-area: 1  / 1 / 2 / 2;
+    /* grid-area: 1; */
     width: 70vw;
-    /* transition: .2s; */
-    /* transition-delay: 1s; 
+    transition: 1s;
+    /* transition-delay: 1s; */
     transition-property: width;
-    transform-origin: left; */
+    /* transform-origin: left; */
+
 }
 .member-card-inner {
     display: flex;
@@ -176,6 +177,3 @@ main#team {
     }
 }
 
-.bio-img {
-    width: 30%;
-}

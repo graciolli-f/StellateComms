@@ -17,8 +17,8 @@ $(document).ready(function(){
         card.closest('.member-card-wrapper').addClass('open');
         $(this).closest('.member-card-inner').css({
             'width' : '30%',
-            'transition' : '2s ease',
-            'transition.delay' : '2s'
+            // 'transition' : '2s ease',
+            // 'transition.delay' : '2s'
             });
         
         // $(this).closest('.member-card-wrapper').css ({
