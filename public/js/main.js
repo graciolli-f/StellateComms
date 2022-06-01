@@ -19,13 +19,13 @@ $(document).ready(function(){
         $('.card-info').hide();
         $(this).hide();
 
-        $('.close').click(function(){
+        $('.close, .team-title, .back').click(function(){
             card.removeClass('bio-visible');
             grid.removeClass('team-grid-bio-open');
             inner.removeClass('bio-open');
             grid.addClass('team-grid');
 
-            otherCards.not(otherBios).fadeIn(1000);
+            otherCards.not(otherBios).fadeIn(300);
             bio.hide();
 
             
@@ -33,6 +33,7 @@ $(document).ready(function(){
             $('.card-info').show();
 
         });
+
       console.log('clicked');
       console.log(card_info);
     });

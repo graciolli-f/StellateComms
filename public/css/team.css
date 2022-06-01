@@ -26,6 +26,7 @@ main#team {
     text-align: center;
     margin-bottom: 2.5em;
     color: #360B42;
+    cursor: pointer;
 }
 .team-title:after {
     content: "";
@@ -77,8 +78,10 @@ main#team {
 }
 .member-card-wrapper.bio-visible {
     grid-area: 1 / 1 / 1 / 1;
+    border: none;
     border-radius:  20px;
     height: max-content;
+
 }
 .bio-content-wrapper {
     background: linear-gradient(to bottom, #A776C0, #EC9F7C);
@@ -120,6 +123,10 @@ main#team {
     right: 1.5rem;
     cursor: pointer;
 }
+.back {
+    margin-top: 10px;
+    cursor: pointer;
+}
 /* .member-card-wrapper.bio.open {
     display: flex;
 } */
@@ -141,7 +148,11 @@ main#team {
 .member-card-inner.bio-open {
     border-radius: 20px;
     margin: -1px;
-    background-color: white;
+    background: white;
+    padding-top: 0;
+}
+.member-card-inner.bio-open > .member-headshot > img{
+    border-radius: 20px;
 }
 .member-headshot {
     display: flex; 
@@ -246,6 +257,54 @@ main#team {
     border: 3px solid transparent;
     border-radius: 50%;
     transform: scale(1.02);
+    }
+}
+
+/* Bio open media queries */
+@media screen  and (max-width: 900px) {
+
+    .team-grid-bio-open {
+        display: flex;
+        flex-direction: column;
+    }
+    .member-card-inner.bio-open {
+        padding-bottom: 0;
+    }
+    .member-card-inner.bio-open > .member-headshot > img {
+        width: 100%;
+        max-width: 100%;
+        border: none;
+    }
+    .bio-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bio-header h1 {
+        font-size: 28px;
+    }
+}
+@media screen  and (max-width: 500px) {  
+    .team-grid-bio-open {
+        min-width: 305px;
+    }
+    .bio-header h1 {
+        padding-right: .5rem;
+    }
+    .bio-content {
+        padding: 1rem;
+    }
+    .bio-header h1 {
+        font-size: 22px;
+    }
+}
+@media screen  and (max-width: 576px) {  
+    .team-title {
+        margin: -75px -50 80px -50;
+    }
+}
+@media screen  and (min-width: 1920px) {  
+    .card-info {
+        font-size: 20px;
     }
 }
 
