@@ -172,7 +172,7 @@ p.hero {
 }
 
 .hero-btn p:after {
-    content: url("assets/ButtonArrow.svg");
+    content: url("/assets/ButtonArrow.svg");
     margin-left: 8px;
     position: absolute;
     top: 50%;
@@ -185,7 +185,7 @@ p.hero {
 }
 
 .hero-btn:hover p:after {
-    content: url("assets/ButtonArrow_white.svg");
+    content: url("/assets/ButtonArrow_white.svg");
     margin-left: 8px;
     position: absolute;
     top: 50%;
@@ -379,7 +379,7 @@ h2.do {
     margin: 58px 0px 58px 85px;
     padding-right: 85px;
     background-repeat: no-repeat;
-    background-image: url(assets/Rays.svg);
+    background-image: url("assets/Rays.svg");
     background-position: right top;
     background-repeat: no-repeat;
     right: 0px;
@@ -730,3 +730,6 @@ p.legal {
     }
 }
 
+.modal {
+    height: unset;
+    }
