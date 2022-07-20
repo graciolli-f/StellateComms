@@ -315,6 +315,7 @@ p.who {
 }
 
 /* WHAT WE DO */
+
 .row#do {
     margin: 85px 70px;
     background-color: #DED1E2;
@@ -352,6 +353,11 @@ img.do {
     flex-direction: column;
     justify-content: center;
     margin-top: 55px;
+}
+
+.do-items img {
+    width: 65px;
+    height: 65px;
 }
 
 h2.do {
