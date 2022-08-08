@@ -1,0 +1,57 @@
+:root {
+    font-size: 16px;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+h1, h2, h3, h4, h5, h6, p, small {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+main#media {
+    margin: 200px 150px;
+}
+
+#media-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p.bold-white {
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+.col-lg-6 {
+    max-width: 45%!important;
+}
+#col1 p {
+    padding-right: 100px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    main#media {
+        margin: 120px 0;
+    }
+    #col1 {
+        padding: 0 50px;
+    }
+    #col2 {
+        max-width: 90%;
+        padding: 0;
+        margin-top: 20px;
+    }
+    ul {
+        margin-left: 15px;
+    }
+}
+
